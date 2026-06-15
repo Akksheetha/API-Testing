@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-15T16:21:46 IST" name="Suite" finished-at="2026-06-15T16:23:19 IST" duration-ms="92902">
+    <groups>
+    </groups>
+    <test started-at="2026-06-15T16:21:46 IST" name="Test" finished-at="2026-06-15T16:23:19 IST" duration-ms="92902">
+      <class name="com.test.APIValidationTest">
+        <test-method signature="validateUserData()[pri:0, instance:com.test.APIValidationTest@6b26e945]" started-at="2026-06-15T16:23:15 IST" name="validateUserData" finished-at="2026-06-15T16:23:17 IST" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserData -->
+      </class> <!-- com.test.APIValidationTest -->
+      <class name="com.test.GetUserTest">
+        <test-method signature="getUserData()[pri:0, instance:com.test.GetUserTest@4df50bcc]" started-at="2026-06-15T16:22:51 IST" name="getUserData" finished-at="2026-06-15T16:23:15 IST" duration-ms="24365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserData -->
+      </class> <!-- com.test.GetUserTest -->
+      <class name="com.test.SeleniumTest">
+        <test-method signature="openReqResSite()[pri:0, instance:com.test.SeleniumTest@309e345f]" started-at="2026-06-15T16:21:47 IST" name="openReqResSite" finished-at="2026-06-15T16:22:51 IST" duration-ms="64472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openReqResSite -->
+      </class> <!-- com.test.SeleniumTest -->
+      <class name="com.test.CreateUserTest">
+        <test-method signature="createUser()[pri:0, instance:com.test.CreateUserTest@63a65a25]" started-at="2026-06-15T16:23:17 IST" name="createUser" finished-at="2026-06-15T16:23:19 IST" duration-ms="2625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- com.test.CreateUserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
