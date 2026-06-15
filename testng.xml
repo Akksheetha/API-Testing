@@ -7,6 +7,11 @@
       <class name="com.test.GetUserTest"/>
       <class name="com.test.APIValidationTest"/>
       <class name="com.test.CreateUserTest"/>
+      <class name="typicode_practice.Delete"/>
+      <class name="typicode_practice.Get1"/>
+      <class name="typicode_practice.Get2"/>
+      <class name="typicode_practice.Post"/>
+      <class name="typicode_practice.Put"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
