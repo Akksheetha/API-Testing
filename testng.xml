@@ -12,13 +12,13 @@
       <class name="typicode_practice.Get2"/>
       <class name="typicode_practice.Post"/>
       <class name="typicode_practice.Put"/>
-      <class name="tcom.practice_restassured.CreateTrainee"/>
-      <class name="tcom.practice_restassured.DeleteTrainee"/>
-      <class name="tcom.practice_restassured.GetTrainee"/>
-      <class name="tcom.practice_restassured.InvalidLogin"/>
-      <class name="tcom.practice_restassured.Login"/>
-      <class name="tcom.practice_restassured.PartialUpdate"/>
-      <class name="tcom.practice_restassured.UpdateTrainee"/>
+      <class name="com.practice_restassured.CreateTrainee"/>
+      <class name="com.practice_restassured.DeleteTrainee"/>
+      <class name="com.practice_restassured.GetTrainee"/>
+      <class name="com.practice_restassured.InvalidLogin"/>
+      <class name="com.practice_restassured.Login"/>
+      <class name="com.practice_restassured.PartialUpdate"/>
+      <class name="com.practice_restassured.UpdateTrainee"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
