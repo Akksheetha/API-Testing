@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-15T21:50:36 IST" name="Default suite" finished-at="2026-06-15T21:50:40 IST" duration-ms="3962">
+  <suite started-at="2026-06-16T16:41:50 IST" name="Default suite" finished-at="2026-06-16T16:41:52 IST" duration-ms="2740">
     <groups>
     </groups>
-    <test started-at="2026-06-15T21:50:36 IST" name="Default test" finished-at="2026-06-15T21:50:40 IST" duration-ms="3962">
-      <class name="typicode_practice.DeletePostTest">
-        <test-method signature="deletePost()[pri:0, instance:typicode_practice.DeletePostTest@41d477ed]" started-at="2026-06-15T21:50:36 IST" name="deletePost" finished-at="2026-06-15T21:50:40 IST" duration-ms="3906" status="PASS">
+    <test started-at="2026-06-16T16:41:50 IST" name="Default test" finished-at="2026-06-16T16:41:52 IST" duration-ms="2740">
+      <class name="com.practice_restassured.DeleteTrainee">
+        <test-method signature="delete_trainee()[pri:0, instance:com.practice_restassured.DeleteTrainee@41d477ed]" started-at="2026-06-16T16:41:50 IST" name="delete_trainee" finished-at="2026-06-16T16:41:52 IST" duration-ms="2678" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deletePost -->
-      </class> <!-- typicode_practice.DeletePostTest -->
+        </test-method> <!-- delete_trainee -->
+      </class> <!-- com.practice_restassured.DeleteTrainee -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
