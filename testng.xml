@@ -23,5 +23,8 @@
       <class name="com.lmspractice.Login"/>
       <class name="com.lmspractice.WithoutToken"/>
     </classes>
+    <listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+</listeners>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
