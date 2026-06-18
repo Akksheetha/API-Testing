@@ -18,6 +18,7 @@ public class Delete {
                 .delete("https://jsonplaceholder.typicode.com/posts/1");
         System.out.println("Status Code : " + res.getStatusCode());
         res.prettyPrint();
-        assertEquals(res.getStatusCode(), 200);
+        res.then()
+        .statusCode(200);
     }
 }

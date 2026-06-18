@@ -20,6 +20,7 @@ public class PartialUpdate {
 				.when()
 				.patch("http://localhost:3000/trainees/1");
 		res.prettyPrint();
-		Assert.assertEquals(res.getStatusCode(),200);
+		res.then()
+		.statusCode(200);
 	}
 }

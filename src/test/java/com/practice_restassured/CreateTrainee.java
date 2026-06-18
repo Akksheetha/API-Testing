@@ -28,7 +28,8 @@ public class CreateTrainee {
 				.post("http://localhost:3000/trainees");
 		res.prettyPrint();
 	   System.out.println(res.getStatusCode());
-	   Assert.assertEquals(res.getStatusCode(),201);
+	   res.then()
+	   .statusCode(201);
 	   Assert.assertEquals(res.jsonPath().getString("company"),"Zoho");
 	}
 

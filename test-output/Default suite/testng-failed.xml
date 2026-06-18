@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.practice_restassured.Head">
+      <class name="com.lmspractice.GetAllNotes">
         <methods>
-          <include name="head_trainee"/>
+          <include name="createNote"/>
         </methods>
-      </class> <!-- com.practice_restassured.Head -->
+      </class> <!-- com.lmspractice.GetAllNotes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

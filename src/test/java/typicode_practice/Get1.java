@@ -18,6 +18,8 @@ public class Get1 {
 		res.prettyPrint();
 		int count = res.jsonPath().getList("$").size();
 		System.out.println(count);
+		res.then()
+		.statusCode(200);
 		Assert.assertEquals(count,100);
 	}
 

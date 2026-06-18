@@ -17,6 +17,7 @@ public class Head {
 	            .head("http://localhost:3000/trainees/HsPAOosXp3k");
 	    System.out.println("Status Code : " + res.getStatusCode());
 	    System.out.println("Headers : " + res.getHeaders());
-	    Assert.assertEquals(res.getStatusCode(), 400);
+	    res.then()
+	    .statusCode(400);
 	}
 }

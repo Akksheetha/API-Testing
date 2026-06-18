@@ -17,6 +17,7 @@ public class OptionsTrainee {
                 .options("http://localhost:3000/trainees");
         System.out.println("Status Code : " + res.getStatusCode());
         System.out.println("Headers : " + res.getHeaders());
-        Assert.assertEquals(res.getStatusCode(), 204);
+        res.then()
+        .statusCode(204);
     }
 }

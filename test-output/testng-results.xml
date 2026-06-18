@@ -1,17 +1,345 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="23" passed="19" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-16T20:40:33 IST" name="Default suite" finished-at="2026-06-16T20:40:35 IST" duration-ms="1977">
+  <suite started-at="2026-06-18T07:42:59 IST" name="Suite" finished-at="2026-06-18T07:43:42 IST" duration-ms="42984">
     <groups>
     </groups>
-    <test started-at="2026-06-16T20:40:33 IST" name="Default test" finished-at="2026-06-16T20:40:35 IST" duration-ms="1977">
-      <class name="com.practice_restassured.OptionsTrainee">
-        <test-method signature="options_trainee()[pri:0, instance:com.practice_restassured.OptionsTrainee@41d477ed]" started-at="2026-06-16T20:40:34 IST" name="options_trainee" finished-at="2026-06-16T20:40:35 IST" duration-ms="1907" status="PASS">
+    <test started-at="2026-06-18T07:42:59 IST" name="Test" finished-at="2026-06-18T07:43:42 IST" duration-ms="42984">
+      <class name="com.practice_restassured.DeleteTrainee">
+        <test-method signature="delete_trainee()[pri:0, instance:com.practice_restassured.DeleteTrainee@1f2586d6]" started-at="2026-06-18T07:43:16 IST" name="delete_trainee" finished-at="2026-06-18T07:43:16 IST" duration-ms="33" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <404>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at com.practice_restassured.DeleteTrainee.delete_trainee(DeleteTrainee.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- options_trainee -->
-      </class> <!-- com.practice_restassured.OptionsTrainee -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- delete_trainee -->
+      </class> <!-- com.practice_restassured.DeleteTrainee -->
+      <class name="com.practice_restassured.GetTrainee">
+        <test-method signature="get_trainee()[pri:0, instance:com.practice_restassured.GetTrainee@44c03695]" started-at="2026-06-18T07:43:16 IST" name="get_trainee" finished-at="2026-06-18T07:43:16 IST" duration-ms="106" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <404>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at com.practice_restassured.GetTrainee.get_trainee(GetTrainee.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_trainee -->
+      </class> <!-- com.practice_restassured.GetTrainee -->
+      <class name="typicode_practice.Delete">
+        <test-method signature="deletePost()[pri:0, instance:typicode_practice.Delete@7586beff]" started-at="2026-06-18T07:43:12 IST" name="deletePost" finished-at="2026-06-18T07:43:12 IST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePost -->
+      </class> <!-- typicode_practice.Delete -->
+      <class name="com.practice_restassured.UpdateTrainee">
+        <test-method signature="update_trainee()[pri:0, instance:com.practice_restassured.UpdateTrainee@2f4948e4]" started-at="2026-06-18T07:43:16 IST" name="update_trainee" finished-at="2026-06-18T07:43:16 IST" duration-ms="68" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <404>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at com.practice_restassured.UpdateTrainee.update_trainee(UpdateTrainee.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_trainee -->
+      </class> <!-- com.practice_restassured.UpdateTrainee -->
+      <class name="com.lmspractice.GetAllNotes">
+        <test-method signature="createNote()[pri:0, instance:com.lmspractice.GetAllNotes@5aa9e4eb]" started-at="2026-06-18T07:43:23 IST" name="createNote" finished-at="2026-06-18T07:43:29 IST" duration-ms="6126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNote -->
+      </class> <!-- com.lmspractice.GetAllNotes -->
+      <class name="com.lmspractice.WithoutToken">
+        <test-method signature="roles()[pri:0, instance:com.lmspractice.WithoutToken@682b2fa]" started-at="2026-06-18T07:43:38 IST" name="roles" finished-at="2026-06-18T07:43:42 IST" duration-ms="4134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roles -->
+      </class> <!-- com.lmspractice.WithoutToken -->
+      <class name="com.lmspractice.Login">
+        <test-method signature="loginTest()[pri:0, instance:com.lmspractice.Login@139982de]" started-at="2026-06-18T07:43:35 IST" name="loginTest" finished-at="2026-06-18T07:43:38 IST" duration-ms="3515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.lmspractice.Login -->
+      <class name="typicode_practice.Put">
+        <test-method signature="post_routes()[pri:0, instance:typicode_practice.Put@1573f9fc]" started-at="2026-06-18T07:43:15 IST" name="post_routes" finished-at="2026-06-18T07:43:16 IST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_routes -->
+      </class> <!-- typicode_practice.Put -->
+      <class name="com.practice_restassured.InvalidLogin">
+        <test-method signature="login()[pri:0, instance:com.practice_restassured.InvalidLogin@7e6f74c]" started-at="2026-06-18T07:43:16 IST" name="login" finished-at="2026-06-18T07:43:16 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.practice_restassured.InvalidLogin -->
+      <class name="com.practice_restassured.Login">
+        <test-method signature="login()[pri:0, instance:com.practice_restassured.Login@dd05255]" started-at="2026-06-18T07:43:16 IST" name="login" finished-at="2026-06-18T07:43:16 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.practice_restassured.Login -->
+      <class name="com.practice_restassured.CreateTrainee">
+        <test-method signature="create_post()[pri:0, instance:com.practice_restassured.CreateTrainee@6150c3ec]" started-at="2026-06-18T07:43:16 IST" name="create_post" finished-at="2026-06-18T07:43:16 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_post -->
+      </class> <!-- com.practice_restassured.CreateTrainee -->
+      <class name="com.practice_restassured.PartialUpdate">
+        <test-method signature="partial_update()[pri:0, instance:com.practice_restassured.PartialUpdate@6a78afa0]" started-at="2026-06-18T07:43:16 IST" name="partial_update" finished-at="2026-06-18T07:43:16 IST" duration-ms="54" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <404>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at com.practice_restassured.PartialUpdate.partial_update(PartialUpdate.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partial_update -->
+      </class> <!-- com.practice_restassured.PartialUpdate -->
+      <class name="com.test.APIValidationTest">
+        <test-method signature="validateUserData()[pri:0, instance:com.test.APIValidationTest@1165b38]" started-at="2026-06-18T07:43:10 IST" name="validateUserData" finished-at="2026-06-18T07:43:10 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserData -->
+      </class> <!-- com.test.APIValidationTest -->
+      <class name="com.test.GetUserTest">
+        <test-method signature="getUserData()[pri:0, instance:com.test.GetUserTest@5b12b668]" started-at="2026-06-18T07:43:07 IST" name="getUserData" finished-at="2026-06-18T07:43:10 IST" duration-ms="2813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserData -->
+      </class> <!-- com.test.GetUserTest -->
+      <class name="typicode_practice.Post">
+        <test-method signature="post_routes()[pri:0, instance:typicode_practice.Post@5542c4ed]" started-at="2026-06-18T07:43:13 IST" name="post_routes" finished-at="2026-06-18T07:43:15 IST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_routes -->
+      </class> <!-- typicode_practice.Post -->
+      <class name="com.lmspractice.GetAllCourseStructure">
+        <test-method signature="courseStructure()[pri:0, instance:com.lmspractice.GetAllCourseStructure@10683d9d]" started-at="2026-06-18T07:43:16 IST" name="courseStructure" finished-at="2026-06-18T07:43:22 IST" duration-ms="6047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseStructure -->
+      </class> <!-- com.lmspractice.GetAllCourseStructure -->
+      <class name="com.lmspractice.GetAllInstitutions">
+        <test-method signature="getAllInstitutions()[pri:0, instance:com.lmspractice.GetAllInstitutions@3fc2959f]" started-at="2026-06-18T07:43:22 IST" name="getAllInstitutions" finished-at="2026-06-18T07:43:23 IST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllInstitutions -->
+      </class> <!-- com.lmspractice.GetAllInstitutions -->
+      <class name="com.lmspractice.GetAllRoles">
+        <test-method signature="roles()[pri:0, instance:com.lmspractice.GetAllRoles@6989da5e]" started-at="2026-06-18T07:43:29 IST" name="roles" finished-at="2026-06-18T07:43:34 IST" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roles -->
+      </class> <!-- com.lmspractice.GetAllRoles -->
+      <class name="typicode_practice.Get1">
+        <test-method signature="post_resources()[pri:0, instance:typicode_practice.Get1@3b69e7d1]" started-at="2026-06-18T07:43:12 IST" name="post_resources" finished-at="2026-06-18T07:43:13 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_resources -->
+      </class> <!-- typicode_practice.Get1 -->
+      <class name="com.lmspractice.HealthCheck">
+        <test-method signature="healthCheck()[pri:0, instance:com.lmspractice.HealthCheck@385c9627]" started-at="2026-06-18T07:43:34 IST" name="healthCheck" finished-at="2026-06-18T07:43:35 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthCheck -->
+      </class> <!-- com.lmspractice.HealthCheck -->
+      <class name="typicode_practice.Get2">
+        <test-method signature="posts_routes()[pri:0, instance:typicode_practice.Get2@815b41f]" started-at="2026-06-18T07:43:13 IST" name="posts_routes" finished-at="2026-06-18T07:43:13 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posts_routes -->
+      </class> <!-- typicode_practice.Get2 -->
+      <class name="com.test.SeleniumTest">
+        <test-method signature="openReqResSite()[pri:0, instance:com.test.SeleniumTest@702657cc]" started-at="2026-06-18T07:42:59 IST" name="openReqResSite" finished-at="2026-06-18T07:43:07 IST" duration-ms="7395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openReqResSite -->
+      </class> <!-- com.test.SeleniumTest -->
+      <class name="com.test.CreateUserTest">
+        <test-method signature="createUser()[pri:0, instance:com.test.CreateUserTest@4c12331b]" started-at="2026-06-18T07:43:10 IST" name="createUser" finished-at="2026-06-18T07:43:12 IST" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- com.test.CreateUserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

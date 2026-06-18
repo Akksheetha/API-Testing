@@ -13,12 +13,15 @@
       <class name="typicode_practice.Post"/>
       <class name="typicode_practice.Put"/>
       <class name="com.practice_restassured.CreateTrainee"/>
-      <class name="com.practice_restassured.DeleteTrainee"/>
-      <class name="com.practice_restassured.GetTrainee"/>
       <class name="com.practice_restassured.InvalidLogin"/>
       <class name="com.practice_restassured.Login"/>
-      <class name="com.practice_restassured.PartialUpdate"/>
-      <class name="com.practice_restassured.UpdateTrainee"/>
+      <class name="com.lmspractice.GetAllCourseStructure"/>
+      <class name="com.lmspractice.GetAllInstitutions"/>
+      <class name="com.lmspractice.GetAllNotes"/>
+      <class name="com.lmspractice.GetAllRoles"/>
+      <class name="com.lmspractice.HealthCheck"/>
+      <class name="com.lmspractice.Login"/>
+      <class name="com.lmspractice.WithoutToken"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
