@@ -28,7 +28,7 @@ public class GetNoteById {
 				.given()
 				.header("Authorization", "Bearer " + token)
 				.when()
-				.get("https://lms-server-3-wedg.onrender.com/getById/notes/PUT_NOTE_ID_HERE");
+				.get("https://lms-server-3-wedg.onrender.com/getById/notes/6a337a4c026d1fff76738368");
 		res.prettyPrint();
 		res.then()
 		.statusCode(200);
