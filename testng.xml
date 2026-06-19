@@ -3,25 +3,17 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.test.SeleniumTest"/>
-      <class name="com.test.GetUserTest"/>
-      <class name="com.test.APIValidationTest"/>
-      <class name="com.test.CreateUserTest"/>
-      <class name="typicode_practice.Delete"/>
-      <class name="typicode_practice.Get1"/>
-      <class name="typicode_practice.Get2"/>
-      <class name="typicode_practice.Post"/>
-      <class name="typicode_practice.Put"/>
-      <class name="com.practice_restassured.CreateTrainee"/>
-      <class name="com.practice_restassured.InvalidLogin"/>
-      <class name="com.practice_restassured.Login"/>
+    <class name="com.lmspractice.HealthCheck"/>
+      <class name="com.lmspractice.Login"/>
       <class name="com.lmspractice.GetAllCourseStructure"/>
       <class name="com.lmspractice.GetAllInstitutions"/>
       <class name="com.lmspractice.GetAllNotes"/>
       <class name="com.lmspractice.GetAllRoles"/>
-      <class name="com.lmspractice.HealthCheck"/>
-      <class name="com.lmspractice.Login"/>
       <class name="com.lmspractice.WithoutToken"/>
+      <class name="com.lmspractice.CreateNote"/>
+      <class name="com.lmspractice.GetNoteById"/>
+      <class name="com.lmspractice.UpdateNote"/>
+      <class name="com.lmspractice.DeleteNote"/>
     </classes>
     
   </test> <!-- Test -->
