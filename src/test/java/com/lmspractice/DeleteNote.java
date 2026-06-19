@@ -1,6 +1,5 @@
 package com.lmspractice;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -10,10 +9,10 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class CreateNote {
-	
+public class DeleteNote {
+
 	@Test
-	public void createNote() {
+	public void deleteNoteById() {
 		Map<String, Object> payload = new HashMap<>();
 		payload.put("email", "sam@gmail.com");
 		payload.put("password", "123");
@@ -24,27 +23,13 @@ public class CreateNote {
 				.when()
 				.post("https://lms-server-3-wedg.onrender.com/user/login");
 		String token = response.jsonPath().getString("token");
-		Map<String, Object> fields = new HashMap<>();
-		ArrayList<String> tags = new ArrayList<>();
-		tags.add("API");
-		tags.add("Demo");
-		fields.put("title", "API testing");
-		fields.put("Content", "Created by Akkshee");
-		fields.put("tags", tags);
-		fields.put("isPinned", "false");
-		fields.put("color","#ffffff");
-		fields.put(token, tags);
 		Response res = RestAssured
 				.given()
-				.contentType(ContentType.JSON)
 				.header("Authorization", "Bearer " + token)
-				.body(fields)
 				.when()
-				.post("https://lms-server-3-wedg.onrender.com/create/notes");
+				.delete("https://lms-server-3-wedg.onrender.com/delete/notes/ById/6a337a4c026d1fff76738368");
 		res.prettyPrint();
 		res.then()
-		.statusCode(201);
+			.statusCode(200);
 	}
-	
-
 }
